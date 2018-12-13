@@ -1,0 +1,7 @@
+"AddonInfo"
+{
+	"name"				"PAC Sweps"
+	"version"			"0.1"
+	"up_date"			"11/11/2014"
+	"author_name"		"Phatso727"
+}
