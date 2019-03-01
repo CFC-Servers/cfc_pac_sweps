@@ -47,7 +47,7 @@ SWEP.Secondary.Ammo			= "none"
 -------------------------
 -- Effects/Visual --
 -------------------------
-SWEP.ViewModel				= "models/weapons/w_rocket_launcher.mdl";
+SWEP.ViewModel				= "models/weapons/v_rpg.mdl";
 SWEP.WorldModel				= "models/weapons/w_rocket_launcher.mdl";
 
 
