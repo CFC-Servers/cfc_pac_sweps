@@ -1,4 +1,4 @@
-include('shared.lua')
+include( 'shared.lua' )
 
 SWEP.PrintName	        = "PAC_357"
 SWEP.Slot				= 3
