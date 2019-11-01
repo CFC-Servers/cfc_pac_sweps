@@ -4,5 +4,5 @@ AddCSLuaFile( "shared.lua" )
 include( "shared.lua" )
 SWEP.HoldType = "smg"
 function SWEP:Initialize()
-    self.Weapon:SetHoldType( "smg" )
+    self:SetHoldType( "smg" )
 end
