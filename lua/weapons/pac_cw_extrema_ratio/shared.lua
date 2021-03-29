@@ -50,4 +50,6 @@ SWEP.Secondary.Ammo            = "none"
 SWEP.ViewModel = "models/weapons/cw2_ex_ra.mdl";
 SWEP.WorldModel = "models/weapons/wcw_ex_ra.mdl";
 
-
+function SWEP:Initialize()
+    self:SetHoldType( "knife" )
+end
