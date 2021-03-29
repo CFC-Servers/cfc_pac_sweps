@@ -1,5 +1,5 @@
-
 AddCSLuaFile( "shared.lua" )
+
 SWEP.HoldType = "knife"
 
 SWEP.DrawAmmo            = false
