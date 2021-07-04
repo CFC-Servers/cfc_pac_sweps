@@ -3,7 +3,7 @@ AddCSLuaFile()
 -- General info
 SWEP.Author = "CFC"
 SWEP.Purpose = "Sweps for buildmode PAC."
-SWEP.PrintName = "PULSE-RIFLE"
+SWEP.PrintName = "Pulse-Rifle"
 SWEP.Category = "PAC SWEPS"
 
 -- Visuals

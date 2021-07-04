@@ -12,7 +12,7 @@ SWEP.WorldModel = "models/weapons/w_357.mdl"
 SWEP.UseHands = true
 SWEP.SetHoldType = "pistol"
 SWEP.DrawCrosshair = true
-SWEP.IconOverride = "entities/weapon_pistol.png"
+SWEP.IconOverride = "entities/weapon_357.png"
 
 -- Functionals
 SWEP.Slot = 1
