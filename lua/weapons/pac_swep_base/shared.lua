@@ -50,6 +50,12 @@ function SWEP:PrimaryAttack()
     return true
 end
 
+function SWEP:Reload()
+    self:GetOwner():SetAnimation( PLAYER_ATTACK1 )
+    self:SendWeaponAnim( 183 )
+    return true
+end
+
 function SWEP:SecondaryAttack()
     return
 end
