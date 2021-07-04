@@ -1,53 +1,20 @@
+AddCSLuaFile()
 
-AddCSLuaFile( "shared.lua" )
-SWEP.HoldType = "duel"
+-- General info
+SWEP.Author = "CFC"
+SWEP.Purpose = "Sweps for buildmode PAC."
+SWEP.PrintName = "Dual pistols"
+SWEP.Category = "PAC SWEPS"
 
-SWEP.DrawAmmo            = false
-SWEP.DrawCrosshair        = false
-SWEP.ViewModelFOV        = 76
-SWEP.ViewModelFlip        = false
+-- Visuals
+SWEP.ViewModel = "models/weapons/v_pist_elite.mdl"
+SWEP.WorldModel = "models/weapons/w_pist_elite.mdl"
+SWEP.HoldType = "dual"
+SWEP.IconOverride = "entities/weapon_pistol.png"
 
-SWEP.Slot                = 3
-SWEP.SlotPos            = 1
-SWEP.IconLetter            = "i"
-SWEP.DrawWeaponInfoBox  = true
-SWEP.Category           = "PAC SWEPS"
-
-------------
--- Info --
-------------
-SWEP.PrintName        = "PAC_DUAL"
-SWEP.Purpose        = "Imitate a Dual-Wielded Pistol"
-
-
--------------
--- Misc. --
--------------
-SWEP.Spawnable            = true
-SWEP.AdminSpawnable        = true
-
-
-----------------------
--- Primary Fire --
-----------------------
-SWEP.Primary.NumShots        = 0
-SWEP.Primary.ClipSize        = -1
-SWEP.Primary.DefaultClip    = -1
-SWEP.Primary.Ammo            = "none"
-SWEP.FiresUnderwater         = false
-
-
--------------------------
--- Secondary Fire --
--------------------------
-SWEP.Secondary.ClipSize        = -1
-SWEP.Secondary.DefaultClip    = -1
-SWEP.Secondary.Ammo            = "none"
-
--------------------------
--- Effects/Visual --
--------------------------
-SWEP.ViewModel                = "";
-SWEP.WorldModel                = "";
-
-
+-- Functionals
+SWEP.Base = "pac_swep_base"
+SWEP.Slot = 1
+SWEP.Spawnable = true
+SWEP.AdminSpawnable = true
+SWEP.AdminOnly = false
