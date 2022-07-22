@@ -35,7 +35,7 @@ SWEP.Secondary.Automatic = true
 SWEP.Secondary.Ammo = ""
 
 
-SWEP.Slot                = 3
+SWEP.Slot               = 3
 SWEP.SlotPos            = 1
 SWEP.DrawWeaponInfoBox  = true
 SWEP.Category           = "PAC SWEPS"
@@ -46,13 +46,13 @@ end
 
 function SWEP:PrimaryAttack()
     self:GetOwner():SetAnimation( PLAYER_ATTACK1 )
-    self:SendWeaponAnim( 181 )
+    self:SendWeaponAnim( ACT_VM_PRIMARYATTACK )
     return true
 end
 
 function SWEP:Reload()
-    self:GetOwner():SetAnimation( PLAYER_ATTACK1 )
-    self:SendWeaponAnim( 183 )
+    self:GetOwner():SetAnimation( PLAYER_RELOAD )
+    self:SendWeaponAnim( ACT_VM_RELOAD )
     return true
 end
 
