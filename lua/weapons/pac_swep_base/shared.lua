@@ -57,5 +57,9 @@ function SWEP:Reload()
 end
 
 function SWEP:SecondaryAttack()
-    return
+    if self.Secondary.ClipSize == -1 then return end
+
+    self:GetOwner():SetAnimation( PLAYER_ATTACK1 )
+    self:SendWeaponAnim( ACT_VM_SECONDARYATTACK )
+    return true
 end
