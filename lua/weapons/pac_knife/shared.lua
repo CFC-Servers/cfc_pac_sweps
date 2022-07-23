@@ -18,3 +18,15 @@ SWEP.Slot = 0
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 SWEP.AdminOnly = false
+
+
+-- Primary
+SWEP.Primary.ClipSize = -1
+SWEP.Primary.DefaultClip = -1
+SWEP.Primary.Cooldown = 0.7
+SWEP.Primary.Automatic = true
+SWEP.Primary.Ammo = ""
+
+function SWEP:CanPrimaryAttack()
+    return true
+end
