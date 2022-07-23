@@ -3,7 +3,7 @@ AddCSLuaFile()
 -- General info
 SWEP.Author = "CFC"
 SWEP.Purpose = "Sweps for buildmode PAC."
-SWEP.PrintName = "Crowbar"
+SWEP.PrintName = "Crowbar (PAC)"
 SWEP.Category = "PAC SWEPS"
 
 -- Visuals

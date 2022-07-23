@@ -3,7 +3,7 @@ AddCSLuaFile()
 -- General info
 SWEP.Author = "CFC"
 SWEP.Purpose = "Sweps for buildmode PAC."
-SWEP.PrintName = "RPG"
+SWEP.PrintName = "RPG (PAC)"
 SWEP.Category = "PAC SWEPS"
 
 -- Visuals

@@ -4,7 +4,7 @@ DEFINE_BASECLASS( "pac_swep_base" )
 -- General info
 SWEP.Author = "CFC"
 SWEP.Purpose = "Sweps for buildmode PAC."
-SWEP.PrintName = "Pistol"
+SWEP.PrintName = "Pistol (PAC)"
 SWEP.Category = "PAC SWEPS"
 
 -- Visuals
