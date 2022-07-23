@@ -11,8 +11,8 @@ SWEP.UseHands = true
 SWEP.SetHoldType = ""
 SWEP.DrawCrosshair = true
 SWEP.IconOverride = ""
-SWEP.ViewModel        = ""
-SWEP.WorldModel        = ""
+SWEP.ViewModel = ""
+SWEP.WorldModel = ""
 
 -- Functionals
 SWEP.Slot = 1
