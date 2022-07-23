@@ -150,6 +150,8 @@ function SWEP:Reload()
         owner:ConCommand( "pac_event swep_reloading_" .. class .. " 1" )
     end
 
+    if not IsFirstTimePredicted() then return end
+
     -- Finish reload
     timer.Simple( reloadDelay, function()
         if not self.Reloading then return end -- In case the reload got canceled by switching weps, etc
@@ -171,7 +173,7 @@ function SWEP:Reload()
         self:SetClip1( clipLeft + amountToTransfer )
 
         -- PAC interaction
-        if CLIENT and IsFirstTimePredicted() then
+        if CLIENT then
             owner:ConCommand( "pac_event swep_reloaded 0" ) -- Pulse
             owner:ConCommand( "pac_event swep_reloaded_" .. class .. " 0" )
             owner:ConCommand( "pac_event swep_reloading 3" ) -- Disable
