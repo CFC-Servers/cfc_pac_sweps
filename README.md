@@ -1,7 +1,7 @@
 # cfc_pac_sweps
 Sweps allowed in PAC during build mode for CFC
 
-PAC SWEPs have ammo, but will play sound or fire bullets.
+PAC SWEPs have ammo, but will not play sound or fire bullets.
 Instead, they serve as placeholders for players to make weapon-based PAC events, using `weapon_class` event type and so on.
 Additionally, these SWEPs will automatically trigger the `command` event with the following names:
 
