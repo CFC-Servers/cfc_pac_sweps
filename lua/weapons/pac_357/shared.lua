@@ -3,7 +3,7 @@ AddCSLuaFile()
 -- General info
 SWEP.Author = "CFC"
 SWEP.Purpose = "Sweps for buildmode PAC."
-SWEP.PrintName = ".357 Magnum"
+SWEP.PrintName = ".357 Magnum (PAC)"
 SWEP.Category = "PAC SWEPS"
 
 -- Visuals

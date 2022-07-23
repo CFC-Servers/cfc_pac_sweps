@@ -3,7 +3,7 @@ AddCSLuaFile()
 -- General info
 SWEP.Author = "CFC"
 SWEP.Purpose = "Sweps for buildmode PAC."
-SWEP.PrintName = "Knife"
+SWEP.PrintName = "Knife (PAC)"
 SWEP.Category = "PAC SWEPS"
 
 -- Visuals
