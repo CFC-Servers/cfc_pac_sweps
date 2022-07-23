@@ -18,3 +18,12 @@ SWEP.Slot = 1
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 SWEP.AdminOnly = false
+
+-- Misc
+SWEP.ReloadDelay = 3.77
+
+-- Primary
+SWEP.Primary.ClipSize = 30
+SWEP.Primary.Cooldown = 0.25
+SWEP.Primary.Automatic = true
+SWEP.Primary.Ammo = "Pistol"
