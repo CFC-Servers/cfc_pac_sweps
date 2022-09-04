@@ -3,7 +3,7 @@ AddCSLuaFile()
 -- General info
 SWEP.Author = "CFC"
 SWEP.Purpose = "Sweps for buildmode PAC."
-SWEP.PrintName = "Crowbar"
+SWEP.PrintName = "Crowbar (PAC)"
 SWEP.Category = "PAC SWEPS"
 
 -- Visuals
@@ -18,3 +18,16 @@ SWEP.Slot = 0
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 SWEP.AdminOnly = false
+
+
+-- Primary
+SWEP.Primary.ClipSize = -1
+SWEP.Primary.DefaultClip = -1
+SWEP.Primary.Cooldown = 0.5
+SWEP.Primary.Automatic = true
+SWEP.Primary.Ammo = ""
+
+
+function SWEP:CanPrimaryAttack()
+    return true
+end
