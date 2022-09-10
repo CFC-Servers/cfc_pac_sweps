@@ -14,4 +14,4 @@ Additionally, these SWEPs will automatically trigger the `command` event with th
 PAC SWEPs will also trigger a second `command` event with the name `baseName_swepClass`, where `baseName` is the name listed above, and `swepClass` is the SWEP's class.
 For example, shooting a `pac_smg` will yield two `command` triggers, `swep_primary` and `swep_primay_pac_smg`
 
-Each SWEP will try to remain as similar to the original base-game weapon as possible, in therms of clip size, cooldowns, and presence/absence of secondary firing modes.
+Each SWEP will try to remain as similar to the original base-game weapon as possible, in terms of clip size, cooldowns, and presence/absence of secondary firing modes.
