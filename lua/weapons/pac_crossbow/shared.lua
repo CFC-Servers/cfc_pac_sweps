@@ -53,6 +53,7 @@ function SWEP:PrimaryAttack()
 
     -- Auto-reload
     timer.Simple( self.Primary.Cooldown, function()
+        if not IsValid( self ) then return end
         self:Reload()
     end )
 end
